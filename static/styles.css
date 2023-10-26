@@ -1,5 +1,39 @@
+* {
+    font-family: sans-serif;
+
+}
+
 div {
     color: rgb(252, 157, 157);
     background-color: rgb(1, 57, 110);
 }
 
+.description {
+    color: rgb(252, 157, 157);
+    background-color: rgb(1, 57, 110);
+}
+
+h1 {
+background: linear-gradient(180deg, #70b1ed, #f20dcf, #a0f20d, #c40df2);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 25s ease infinite;
+-moz-animation: AnimationName 25s ease infinite;
+animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+0%{background-position:17% 0%}
+50%{background-position:84% 100%}
+100%{background-position:17% 0%}
+}
+@-moz-keyframes AnimationName {
+0%{background-position:17% 0%}
+50%{background-position:84% 100%}
+100%{background-position:17% 0%}
+}
+@keyframes AnimationName {
+0%{background-position:17% 0%}
+50%{background-position:84% 100%}
+100%{background-position:17% 0%}
+}
